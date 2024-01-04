@@ -297,3 +297,7 @@ father_id = Person.objects.get(id=1).father.id  # Causes a needless database que
 
 # DO
 father_id = Person.objects.get(id=1).father_id  # The foreign key is already cached. No query
+
+
+
+hi
